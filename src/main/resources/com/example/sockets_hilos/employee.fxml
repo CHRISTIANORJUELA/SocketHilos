@@ -9,14 +9,14 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox alignment="CENTER" prefHeight="581.0" prefWidth="659.0" spacing="20.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/18" fx:controller="com.example.sockets_hilos.controllers.EmployeeController">
+<VBox alignment="CENTER" prefHeight="581.0" prefWidth="659.0" spacing="20.0" style="-fx-background-color: #043b94;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sockets_hilos.controllers.EmployeeController">
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
     </padding>
    <children>
-      <AnchorPane prefHeight="577.0" prefWidth="619.0">
+      <AnchorPane prefHeight="541.0" prefWidth="571.0" style="-fx-background-color: #02949e; -fx-border-radius: 30px; -fx-background-radius: 30px;">
          <children>
-            <TextArea fx:id="textArea" editable="false" layoutX="96.0" layoutY="183.0" prefHeight="329.0" prefWidth="443.0" />
+            <TextArea fx:id="textArea" editable="false" layoutX="88.0" layoutY="174.0" prefHeight="329.0" prefWidth="443.0" />
             <Label layoutX="269.0" text="Ordenes">
                <font>
                   <Font name="System Bold" size="21.0" />
@@ -40,7 +40,7 @@
                   <Font size="15.0" />
                </font>
             </Label>
-            <Button layoutX="252.0" layoutY="125.0" mnemonicParsing="false" onAction="#btnConectServer" prefHeight="25.0" prefWidth="117.0" text="Enviar" />
+            <Button layoutX="257.0" layoutY="118.0" mnemonicParsing="false" onAction="#btnConectServer" prefHeight="38.0" prefWidth="105.0" style="-fx-background-color: #347bed; -fx-border-radius: 5px; -fx-background-radius: 5px;" text="Enviar" />
          </children>
       </AnchorPane>
    </children>
